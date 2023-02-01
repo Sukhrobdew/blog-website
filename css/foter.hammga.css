@@ -1,0 +1,75 @@
+@import url(./common.css);
+
+.footer-nav {
+  padding-top: 40px;
+}
+.bgc {
+  background-color: #232536;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.footer-web-logo {
+  display: none;
+}
+.footer-link ul {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-link ul li a {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.footer-emeil-box {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 40px;
+  padding: 30px 20px;
+}
+.subscribe-news h2 {
+  color: white;
+}
+input[type="email"] {
+  height: 40px;
+  margin-top: 30px;
+  width: 74%;
+}
+input[type="submit"] {
+  height: 40px;
+  width: 24%;
+}
+
+input[type="placeholder"]{
+    padding-left: 20px;
+}
+@media (min-width: 600px) {
+  .footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-web-logo {
+    display: inline-block;
+  }
+  .footer-link ul li {
+    padding-left: 10px;
+  }
+}
+@media(min-width: 637px){
+    .footer-emeil-box{
+        display: flex;
+    }
+    .subscribe-news{
+        max-width: 562px;
+    }
+    .footer-input{
+        width: 50%;
+    }
+}
+@media (min-width: 900px) {
+  .footer-link ul li {
+    padding-left: 24px;
+  }
+}
