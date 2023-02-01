@@ -1,0 +1,41 @@
+
+<!-- js  qoshish esdan chiqmasn shrink bilan toggle uchyn -->
+
+<nav id="navbar">
+    <div class="container">
+      <div class="top-nav">
+        <div class="logo">
+          <a href="./index.html"
+            ><img src="./images/home/Logo.svg" alt="logo"
+          /></a>
+        </div>
+        <div class="links">
+          <ul id="myLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li class="subscribe"><a href="#">Subscribe</a></li>
+          </ul>
+          <div class="hamburger">
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+              >&#9776;</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- toggle ------ -->
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <div class="overlay-content">
+          <a href="#">Home</a>
+          <a href="#">Blog</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
