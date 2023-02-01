@@ -1,26 +1,7 @@
+@import url(./common.css);
 /* start-header */
 :root {
-  --main-color: #232536;
-  --bgc-button: #edc14a;
-  --purple: #592ea9;
-  --dark-grey: #4c4c4c;
-  --medium-grey: #6d6e76;
-  --light-gray: #f4f4f4;
-  --levander: #f4f0f8;
-  --light-yellov: #fbf6ea;
-}
-:root {
   --white: #ffffff;
-}
-:root {
-  --display-size: 56px;
-  --headingh1-size: 48px;
-  --headingh2-size: 36px;
-  --headingh3-size: 28px;
-  --headingh4-size: 24px;
-  --headingh5-size: 20px;
-  --headingh6-size: 16px;
-  --lebel-size-: 14px;
 }
 body {
   background-color: var(--light-gray);
@@ -50,6 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 40px;
 }
 
 .links ul {
@@ -148,8 +130,19 @@ nav {
   color: red;
 }
 
-/* end-navbar */
+/* ------toggle--end---- */
 
+/* ------------------------media--------- */
+@media (min-width: 900px) {
+  #myLinks {
+    display: flex;
+  }
+  .hamburger span {
+    display: none;
+  }
+}
+
+/* end-navbar */
 
 .header-started {
   display: flex;
@@ -159,6 +152,7 @@ nav {
 .header-started-left {
   max-width: 624px;
   height: 326px;
+  margin-top: 150px;
   background-color: var(--white);
 }
 .header-started-left p {
@@ -199,6 +193,7 @@ nav {
   color: var(--dark-grey);
 }
 
+
 @media (min-width: 1000px) {
   .header-started {
     display: flex;
@@ -208,10 +203,19 @@ nav {
   .header-started-left {
     position: relative;
     left: 10%;
-    top: 60px;
     max-width: 494px;
-    height: 286px;
+    height: 299px;
     padding-left: 20px;
+  }
+  .header-started-left h2 {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    max-width: 600px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: var(--main-color);
   }
   .header-started-left p {
     font-family: "Inter";
@@ -222,5 +226,18 @@ nav {
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--main-color);
+  }
+  .header-started-right {
+    position: relative;
+    right: 35px;
+  }
+  .header-started-right p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4c4c4c;
+    min-width: 474px;
   }
 }
