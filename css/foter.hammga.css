@@ -1,0 +1,155 @@
+@import url(./common.css);
+
+.footer-nav {
+  padding-top: 40px;
+}
+
+.bgc {
+  background-color: #232536;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.footer-web-logo {
+  display: none;
+}
+
+.footer-link ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link ul li a {
+  font-size: 16px;
+  font-family: "Inter";
+  color: white;
+}
+
+.footer-emeil-box {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 40px;
+  padding: 30px 20px;
+}
+
+.subscribe-news h2 {
+  color: white;
+  font-family: "Sen";
+}
+
+input[type="email"] {
+  height: 40px;
+  margin-top: 30px;
+  width: 72%;
+  padding: 0 20px;
+  background: transparent;
+  border: 1px solid #4c4c4c;
+  color: white;
+}
+
+.footer-input {
+  align-items: center;
+}
+
+input[type="submit"] {
+  height: 40.5px;
+  width: 22%;
+  background: #ffd050;
+  font-family: "Sen";
+  border: none;
+  cursor: pointer;
+}
+.footer-last-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.last-box-left a {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.last-box-right{
+    display: none;
+}
+
+@media (min-width: 600px) {
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-web-logo {
+    display: inline-block;
+  }
+
+  .footer-link ul li {
+    padding-left: 10px;
+  }
+  .last-box-right{
+    display: inline-block;
+}
+}
+@media (min-width: 690px) {
+  .footer-emeil-box {
+    display: flex;
+    height: 256px;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+  }
+
+  .subscribe-news {
+    width: 50%;
+  }
+
+  .subscribe-news h2 {
+    font-size: 26px;
+  }
+
+  .footer-input {
+    width: 50%;
+    margin-top: -60px;
+  }
+
+  input[type="submit"] {
+    height: 48px;
+    margin-left: 12px;
+  }
+  input[type="email"] {
+    height: 48px;
+  }
+}
+@media (min-width: 900px) {
+  .footer-link ul li {
+    padding-left: 24px;
+  }
+
+  .subscribe-news h2 {
+    font-size: 36px;
+  }
+
+  .footer-input form {
+    justify-content: space-between;
+  }
+
+  .footer-input {
+    width: 50%;
+    margin-top: -50px;
+  }
+
+  input[type="submit"] {
+    height: 56px;
+    width: 25%;
+    margin-left: 15px;
+  }
+
+  input[type="email"] {
+    height: 56px;
+    margin-left: 60px;
+    width: 55%;
+  }
+}
