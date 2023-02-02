@@ -111,7 +111,7 @@ main {
   color: #6d6e76;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .lobore {
     display: flex;
     flex-wrap: wrap;
