@@ -1,0 +1,128 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #e5e5e5;
+}
+
+main {
+  margin-top: 90px;
+}
+
+.help h1 {
+  padding: 24px 0;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.help p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  color: #6d6e76;
+  padding: 24px 0;
+}
+
+.dolor {
+  gap: 32px;
+  padding: 120px 0;
+  display: flex;
+}
+
+.resus h2 {
+  padding: 64px 0;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.sem img {
+  height: 390px;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.magna {
+  margin-bottom: 120px;
+  margin-top: 64px;
+}
+
+.vevera {
+  display: flex;
+}
+
+.vevera img {
+  margin: 15px;
+  width: 20px;
+}
+
+.lobore {
+  gap: 32px;
+  display: flex;
+}
+.img {
+  width: 100%;
+}
+
+.ispum h6 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #592ea9;
+  padding: 30px 0;
+}
+
+.ispum h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #232536;
+  letter-spacing: -2px;
+  padding: 20px 0;
+}
+
+.ispum p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+
+@media (max-width: 800px) {
+  .lobore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .dolor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .help h1 p {
+  }
+}

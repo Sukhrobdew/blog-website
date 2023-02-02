@@ -1,12 +1,273 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet</title>
-</head>
-<body>
-    <h1>BOBUR</h1>
-</body>
-</html>
+    <link rel="stylesheet" href="./css/blog.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <div class="top-nav">
+            <div class="logo">
+              <a href="./index.html"
+                ><img src="./images/home/Logo.svg" alt="logo"
+              /></a>
+            </div>
+            <div class="links">
+              <ul id="myLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li class="subscribe"><a href="#">Subscribe</a></li>
+              </ul>
+              <div class="hamburger">
+                <span
+                  style="font-size: 30px; cursor: pointer"
+                  onclick="openNav()"
+                  >&#9776;</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- toggle ------ -->
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="#">Home</a>
+              <a href="#">Blog</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section id="hom">
+        <div class="container">
+          <div class="home">
+            <div class="home-left">
+              <h5>Featured Post</h5>
+              <h3>Step-by-step guide to choosing great font pairs</h3>
+              <div class="john">
+                <p>By</p>
+                <p class="doe">John Doe</p>
+                <p>l May 23, 2022</p>
+              </div>
+              <p>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident.
+              </p>
+              <button>Read More ></button>
+            </div>
+            <div class="home-right">
+              <img
+                src="./images/blog/man-in-white-dress-shirt-sitting-on-black-rolling-chair-while-facing-black-computer-set-and-smiling-840996.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="blog">
+        <div class="container">
+          <div class="all-post">
+            <div class="post">
+              <h1>All posts</h1>
+              <div class="border"></div>
+            </div>
+            <div class="all">
+              <div class="all-img">
+                <img
+                  src="./images/blog/two-women-in-front-of-dry-erase-board-1181533.png"
+                  alt=""
+                />
+              </div>
+              <div class="all-cont">
+                <h5>Startup</h5>
+                <h1>
+                  Design tips for designers that cover everything you need
+                </h1>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="all-img">
+                <img
+                  src="./images/blog/photo-of-people-doing-handshakes-3183197.png"
+                  alt=""
+                />
+              </div>
+              <div class="all-cont">
+                <h5>BUSINESS</h5>
+                <h1>How to build rapport with your web design clients</h1>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="all-img">
+                <img
+                  src="./images/blog/photo-of-woman-looking-at-man-3183173.png"
+                  alt=""
+                />
+              </div>
+              <div class="all-cont">
+                <h5>Startup</h5>
+                <h1>Logo design trends to avoid in 2022</h1>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="all-img">
+                <img
+                  src="./images/blog/photo-of-people-walking-on-hallway-3182811.png "
+                  alt=""
+                />
+              </div>
+              <div class="all-cont">
+                <h5>TECHNOLOGY</h5>
+                <h1>8 Figma design systems you can download for free today</h1>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+              </div>
+            </div>
+            <div class="all">
+              <div class="all-img">
+                <img
+                  src="./images/blog/two-women-in-front-of-dry-erase-board-1181533.png"
+                  alt=""
+                />
+              </div>
+              <div class="all-cont">
+                <h5>ECONOMY</h5>
+                <h1>Font sizes in UI design: The complete guide to follow</h1>
+                <p>
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident.
+                </p>
+              </div>
+            </div>
+            <div class="next">
+              <h4>< Prev</h4>
+              <h3>Next ></h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <div class="container">
+          <div class="catigors">
+            <h1>All Categories</h1>
+          </div>
+          <div class="catigor-card">
+            <div class="card">
+              <img src="./images/blog/1.svg" alt="" />
+              <h3>Business</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="card">
+              <img class="icon" src="./images/blog/Icon (5).png" alt="" />
+              <h3>Startup</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="card">
+              <img src="./images/blog/icon (2).svg" alt="" />
+              <h3>Economy</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="card">
+              <img src="./images/blog/icon3.svg" alt="" />
+              <h3>Technology</h3>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="catigors-end">
+            <h1>
+              Join our team to be a part <br />
+              of our story
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing <br />
+              elit, sed do eiusmod tempor incididunt.
+            </p>
+            <button>Join Now</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="bgc">
+        <div class="container footer-nav">
+          <div class="footer-web-logo">
+            <a href="./index.html"
+              ><img src="./images/footer-nav/logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="footer-link">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./about.html">About us</a></li>
+              <li><a href="./contact.html">Contact us</a></li>
+              <li><a href="./policiy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container footer-emeil-box">
+          <div class="subscribe-news">
+            <h2>Subscribe to our news letter to get latest updates and news</h2>
+          </div>
+          <div class="footer-input">
+            <form action="#">
+              <input
+                placeholder="Enter Your Email"
+                required
+                name="emeil"
+                type="email"
+              />
+              <input type="submit" value="Subscribe" />
+            </form>
+          </div>
+        </div>
+        <div class="container footer-last-box">
+            <div class="last-box-left">
+                <a href="#">Finstreet 118 2561 Fintown</a> <br>
+                <a href="#">Hello@finsweet.com  020 7993 2905</a>
+            </div>
+            <div class="last-box-right">
+                <a href="#"><img src="./images/footer-nav/facebok-nav.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/twitter.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/insta.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/in.svg" alt=""></a>
+            </div>
+          </div>
+      </section>
+    </footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html> 
