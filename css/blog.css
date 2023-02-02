@@ -206,6 +206,10 @@ nav {
   border: none;
   margin-top: 32px;
 }
+.home-left button:hover {
+  transform: scale(1.1);
+  box-shadow: 1 #e5e5e5;
+}
 .home-right img {
   width: 100%;
   margin-top: 30px;

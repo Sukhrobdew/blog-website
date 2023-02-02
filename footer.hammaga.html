@@ -6,8 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./css/foter.hammga.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+      integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <section id="carusel">
+      <div class="container car">
+        <div class="left">
+          <h5>TESTIMONIALs</h5>
+          <h1>What people say about our blog</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor.
+          </p>
+        </div>
+        <div class="bot"></div>
+        
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="owl-carousel">
+          <div>Your Content</div>
+          <div>Your Content</div>
+          <div>Your Content</div>
+          <div>Your Content</div>
+          <div>Your Content</div>
+          <div>Your Content</div>
+          <div>Your Content</div>
+        </div>
+      </div>
+    </section>
     <footer class="bgc">
       <section>
         <div class="container footer-nav">
@@ -43,18 +84,37 @@
           </div>
         </div>
         <div class="container footer-last-box">
-            <div class="last-box-left">
-                <a href="#">Finstreet 118 2561 Fintown</a> <br>
-                <a href="#">Hello@finsweet.com  020 7993 2905</a>
-            </div>
-            <div class="last-box-right">
-                <a href="#"><img src="./images/footer-nav/facebok-nav.svg" alt=""></a>
-                <a href="#"><img src="./images/footer-nav/twitter.svg" alt=""></a>
-                <a href="#"><img src="./images/footer-nav/insta.svg" alt=""></a>
-                <a href="#"><img src="./images/footer-nav/in.svg" alt=""></a>
-            </div>
+          <div class="last-box-left">
+            <a href="#">Finstreet 118 2561 Fintown</a> <br />
+            <a href="#">Hello@finsweet.com 020 7993 2905</a>
           </div>
+          <div class="last-box-right">
+            <a href="#"
+              ><img src="./images/footer-nav/facebok-nav.svg" alt=""
+            /></a>
+            <a href="#"><img src="./images/footer-nav/twitter.svg" alt="" /></a>
+            <a href="#"><img src="./images/footer-nav/insta.svg" alt="" /></a>
+            <a href="#"><img src="./images/footer-nav/in.svg" alt="" /></a>
+          </div>
+        </div>
       </section>
     </footer>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+      integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel();
+      });
+    </script>
   </body>
 </html>

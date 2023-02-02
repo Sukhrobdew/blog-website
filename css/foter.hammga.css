@@ -153,3 +153,49 @@ input[type="submit"] {
     width: 55%;
   }
 }
+
+/* section */
+#carusel {
+  background: #fbf6ea;
+}
+
+.left h5 {
+  margin-top: 30px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #232536;
+}
+.car {
+  display: flex;
+  padding: 50px 174px 74px 112px;
+}
+.left h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #232536;
+}
+
+.bot {
+  border: 1px solid #6d6e76;
+  margin-left: 80px;
+  height: 250px;
+}
