@@ -1,29 +1,10 @@
+@import url(./common.css);
 /* start-header */
-:root {
-  --main-color: #232536;
-  --bgc-button: #edc14a;
-  --purple: #592ea9;
-  --dark-grey: #4c4c4c;
-  --medium-grey: #6d6e76;
-  --light-gray: #f4f4f4;
-  --levander: #f4f0f8;
-  --light-yellov: #fbf6ea;
-}
 :root {
   --white: #ffffff;
 }
-:root {
-  --display-size: 56px;
-  --headingh1-size: 48px;
-  --headingh2-size: 36px;
-  --headingh3-size: 28px;
-  --headingh4-size: 24px;
-  --headingh5-size: 20px;
-  --headingh6-size: 16px;
-  --lebel-size-: 14px;
-}
 body {
-  background-color: var(--light-gray);
+  background: #e5e5e5;
 }
 /* start-navbar */
 #navbar {
@@ -35,7 +16,7 @@ body {
 
 /* shrink------ */
 nav {
-  padding: 27px 0;
+  padding: 20px 0;
 }
 
 .navbar-shrink {
@@ -50,6 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0px 40px;
 }
 
 .links ul {
@@ -148,8 +130,11 @@ nav {
   color: red;
 }
 
-/* end-navbar */
+/* ------toggle--end---- */
 
+/* ------------------------media--------- */
+
+/* end-navbar */
 
 .header-started {
   display: flex;
@@ -159,6 +144,7 @@ nav {
 .header-started-left {
   max-width: 624px;
   height: 326px;
+  margin-top: 150px;
   background-color: var(--white);
 }
 .header-started-left p {
@@ -198,8 +184,489 @@ nav {
   line-height: 28px;
   color: var(--dark-grey);
 }
+.header-img {
+  padding: 0px 45px;
+  padding-bottom: 40px;
+}
+.header-img img {
+  padding-top: 130px;
+  width: 100%;
+}
+.numbers-boss {
+  background: #ffd050;
+  max-width: 630px;
+  height: 296px;
+  width: 100%;
+}
+.items h2 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+.items p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 28px;
+  color: var(--main-color);
+}
+#our {
+  background: #f4f0f8;
+  padding-top: 50px;
+}
+.our-left h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.our-left h2 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  padding-bottom: 16px;
+  letter-spacing: -1px;
+  color: var(--main-color);
+}
+.our-left p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--medium-grey);
+}
+.our-right h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.our-right h2 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  padding-bottom: 16px;
+  letter-spacing: -1px;
+  color: var(--main-color);
+}
+.our-right {
+  padding-top: 80px;
+}
+.our-right p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--medium-grey);
+}
+/* header-end */
+/* header-end */
+#team {
+  padding-top: 100px;
+}
+.left-team h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 20px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: var(--main-color);
+}
+.left-team h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  padding-bottom: 16px;
+  color: var(--main-color);
+}
+.left-team p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--main-color);
+}
+.right-team img {
+  width: 100%;
+  padding-top: 60px;
+}
+.logos svg {
+  padding-top: 20px;
+}
+.left-second-team img {
+  width: 100%;
+  padding-bottom: 60px;
+}
+.logo-second {
+  margin-top: -100px;
+  margin-left: 30px;
+}
+.right-second-team h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  padding-bottom: 20px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: var(--main-color);
+}
+.right-second-team h3 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  padding-bottom: 16px;
+  line-height: 32px;
+  color: var(--main-color);
+}
+.right-second-team p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--main-color);
+}
+.title h1 {
+  text-align: center;
+  padding-top: 80px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: var(--main-color);
+}
+.card-box {
+  padding-top: 40px;
+  padding-left: 20px;
+  width: 100%;
+}
+.card-box:nth-child(1) {
+  padding-bottom: 20px;
+}
+.card {
+  width: 296px;
+  height: 324px;
+  background: #f4f4f4;
+  transition: 0.3s;
+}
+.content h4 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  padding-top: 10px;
+  letter-spacing: -1px;
+  color: var(--main-color);
+  text-align: center;
+}
+.content p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #6d6e76;
+}
+.img-bx {
+  text-align: center;
+  padding-top: 30px;
+}
+.social {
+  padding-top: 10px;
+  text-align: center;
+}
+.social {
+  padding-top: 20px;
+}
+.card-second {
+  max-width: 296px;
+  padding-top: 20px;
+  height: 324px;
+  background: #f4f4f4;
+}
+a {
+  color: black;
+}
+.last-container h1 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  padding-top: 50px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: var(--main-color);
+}
+.last-container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  width: 100%;
+  padding-bottom: 16px;
+  line-height: 28px;
+}
+.last-container button {
+  width: 174px;
+  border: none;
+  height: 56px;
+  background: #ffd050;
+}
+.footer-nav {
+  padding-top: 40px;
+}
 
-@media (min-width: 1000px) {
+.bgc {
+  background-color: #232536;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.footer-web-logo {
+  display: none;
+}
+
+.footer-link ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-link ul li a {
+  font-size: 16px;
+  font-family: "Inter";
+  color: white;
+}
+
+.footer-emeil-box {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-top: 40px;
+  padding: 30px 20px;
+}
+
+.subscribe-news h2 {
+  color: white;
+  font-family: "Sen";
+}
+
+input[type="email"] {
+  height: 40px;
+  margin-top: 30px;
+  width: 72%;
+  padding: 0 20px;
+  background: transparent;
+  border: 1px solid #4c4c4c;
+  color: white;
+}
+
+.footer-input {
+  align-items: center;
+}
+
+input[type="submit"] {
+  height: 40.5px;
+  width: 22%;
+  background: #ffd050;
+  font-family: "Sen";
+  border: none;
+  cursor: pointer;
+}
+.footer-last-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.last-box-left a {
+  font-family: "Inter";
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.7;
+}
+.last-box-right {
+  display: none;
+}
+.fot-end h1 {
+  padding-top: 128px;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+.fot-end p {
+  margin-top: 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6d6e76;
+}
+.fot-end button {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  background: #ffd050;
+  padding: 26px 48px;
+  margin-left: 80px;
+  border: none;
+  margin-top: 32px;
+}
+
+
+@media (min-width: 600px) {
+  .footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-web-logo {
+    display: inline-block;
+  }
+
+  .footer-link ul li {
+    padding-left: 10px;
+  }
+  .last-box-right {
+    display: inline-block;
+  }
+}
+@media (min-width: 690px) {
+  .footer-emeil-box {
+    display: flex;
+    height: 256px;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+  }
+
+  .subscribe-news {
+    width: 50%;
+  }
+
+  .subscribe-news h2 {
+    font-size: 26px;
+  }
+
+  .footer-input {
+    width: 50%;
+    margin-top: -60px;
+  }
+
+  input[type="submit"] {
+    height: 48px;
+    margin-left: 12px;
+  }
+  input[type="email"] {
+    height: 48px;
+  }
+}
+@media (min-width: 800px) {
+  #our {
+    background: #f4f0f8;
+    position: relative;
+    top: -290px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+  }
+  .our-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  .our-left {
+    padding-top: 80px;
+  }
+  .our-left h2 {
+    max-width: 400px;
+  }
+  p {
+    max-width: 500px;
+  }
+  .our-right {
+    margin-top: -25px;
+  }
+  .our-right {
+    padding-top: 100px;
+  }
+  .our-right h2 {
+    max-width: 400px;
+  }
+  /* .our-right p {
+    max-width: 1100px;
+  } */
+}
+@media (min-width: 850px) {
+  .numbers-boss {
+    position: relative;
+    top: -260px;
+    left: 8%;
+    max-width: 630px;
+    height: 156px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  .color-purple {
+    position: relative;
+    top: -260px;
+    left: 8%;
+    width: 311.48px;
+    height: 23px;
+    background: #592ea9;
+  }
+  .color-yellow {
+    position: relative;
+    width: 550px;
+    height: 23px;
+    background: #ffd050;
+    top: -283px;
+    left: 31%;
+  }
+}
+@media (min-width: 900px) {
   .header-started {
     display: flex;
     justify-content: space-between;
@@ -207,11 +674,20 @@ nav {
   }
   .header-started-left {
     position: relative;
-    left: 10%;
-    top: 60px;
-    max-width: 494px;
-    height: 286px;
+    left: 8%;
+    max-width: 520px;
+    height: 310px;
     padding-left: 20px;
+  }
+  .header-started-left h2 {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    max-width: 600px;
+    line-height: 64px;
+    letter-spacing: -2px;
+    color: var(--main-color);
   }
   .header-started-left p {
     font-family: "Inter";
@@ -222,5 +698,164 @@ nav {
     letter-spacing: 3px;
     text-transform: uppercase;
     color: var(--main-color);
+  }
+  .header-started-right {
+    margin-right: 70px;
+  }
+  .header-started-right p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #4c4c4c;
+    min-width: 474px;
+  }
+  .header-img img {
+    margin-top: -200px;
+  }
+}
+@media (min-width: 900px) {
+  .footer-link ul li {
+    padding-left: 24px;
+  }
+
+  .subscribe-news h2 {
+    font-size: 36px;
+  }
+
+  .footer-input form {
+    justify-content: space-between;
+  }
+
+  .footer-input {
+    width: 50%;
+    margin-top: -50px;
+  }
+
+  input[type="submit"] {
+    height: 56px;
+    width: 25%;
+    margin-left: 15px;
+  }
+
+  input[type="email"] {
+    height: 56px;
+    margin-left: 60px;
+    width: 55%;
+  }
+}
+@media (min-width: 900px) {
+  #myLinks {
+    display: flex;
+  }
+  .hamburger span {
+    display: none;
+  }
+}
+@media (min-width: 910px) {
+  #authors {
+    position: relative;
+    top: -250px;
+  }
+  .card-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  a {
+    color: black;
+  }
+  .card:hover {
+    background: #fbf6ea;
+  }
+}
+@media (min-width: 1100px) {
+  #team {
+    position: relative;
+    top: -270px;
+  }
+  .team-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .right-team img {
+    width: 624px;
+    height: 480px;
+    margin-top: -100px;
+  }
+  .left-team {
+    padding-left: 25px;
+  }
+  .left-team h3 {
+    max-width: 500px;
+  }
+  .logos {
+    position: absolute;
+  }
+}
+@media (min-width: 1110px) {
+  .left-second-team img {
+    max-width: 624px;
+    height: 480px;
+  }
+  .right-second-team {
+    padding-right: 65px;
+    margin-top: 60px;
+  }
+  .right-second-team h3 {
+    max-width: 500px;
+  }
+  .right-second-team p {
+    max-width: 550px;
+  }
+  .logo-second {
+    position: relative;
+    top: -9px;
+    left: 13%;
+  }
+}
+@media (min-width: 1120px) {
+  #last {
+    position: relative;
+    top: -130px;
+  }
+  .fot-end {
+    text-align: center;
+    padding-bottom: 128px;
+  }
+  .fot-end h1 {
+    padding-top: 128px;
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+  }
+  .fot-end p {
+    margin-top: 16px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 360px;
+    color: #6d6e76;
+  }
+  .fot-end button {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #232536;
+    background: #ffd050;
+    padding: 16px 48px;
+    border: none;
+    margin-top: 32px;
+    margin-right: 70px;
   }
 }

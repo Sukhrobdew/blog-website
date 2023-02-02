@@ -5,9 +5,190 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Category</title>
-    <link rel="stylesheet" href="./css/category.css">
+    <link rel="stylesheet" href="./css/category.css" />
   </head>
   <body>
-    <h1>Orif Yo'ldoshev</h1>
+    <nav id="navbar">
+      <div class="container">
+        <div class="top-nav">
+          <div class="logo">
+            <a href="./index.html"
+              ><img src="./images/home/Logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="links">
+            <ul id="myLinks">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li class="subscribe"><a href="#">Subscribe</a></li>
+            </ul>
+            <div class="hamburger">
+              <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+                >&#9776;</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- toggle ------ -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="business-box">
+        <h1>Business</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore.
+        </p>
+        <h5>Blog > Business</h5>
+      </div>
+      <div class="container blog-box">
+        <div class="box-left">
+            <div class="busines-card">
+              <div class="busines-card-img">
+                <img src="./images/category/card-png.png" alt="">
+              </div>
+              <div class="busines-card-text">
+                <a href="#">Business</a>
+                <h1>Top 6 free website mockup tools 2022</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+              </div>
+            </div>
+            <div class="busines-card">
+              <div class="busines-card-img">
+                <img src="./images/category/card-png.png" alt="">
+              </div>
+              <div class="busines-card-text">
+                <a href="#">Business</a>
+                <h1>Step-by-step guide to choosing great font pairs</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+              </div>
+            </div>
+            <div class="busines-card">
+              <div class="busines-card-img">
+                <img src="./images/category/card-png.png" alt="">
+              </div>
+              <div class="busines-card-text">
+                <a href="#">Business</a>
+                <h1>Ten free foogle fonts that you should use</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+              </div>
+            </div>
+            <div class="busines-card">
+              <div class="busines-card-img">
+                <img src="./images/category/card-png.png" alt="">
+              </div>
+              <div class="busines-card-text">
+                <a href="#">Business</a>
+                <h1>What did I learn from doing 50+ design sprints?</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Non blandit massa enim nec.</p>
+              </div>
+            </div>
+        </div>
+        <div class="box-right"> 
+          <div class="categories"> 
+            <div class="categories-text">
+              <h1>Categories</h1>
+            </div>   
+          <div class="card">
+            <img src="./images/category/startup.svg" alt="">
+            <h1>Startup</h1>
+          </div>
+          <div class="card">
+            <img src="./images/category/business.svg" alt="">
+            <h1>Startup</h1>
+          </div>      
+          <div class="card">
+            <img src="./images/category/economy.svg" alt="">
+            <h1>Startup</h1>
+          </div>          
+            <div class="card">
+              <img src="./images/category/technology.svg" alt="">
+              <h1>Startup</h1>
+            </div>
+          </div>
+          <div class="all-tags">
+            <div class="all-tags-text">
+              <h1>All Tags</h1>
+            </div>
+            <div class="box1">
+              <div class="busi">Business</div>
+              <div class="exper">Experience</div>
+            </div>
+            <div class="box1">
+              <div class="screen">Screen</div>
+              <div class="tech">Technology</div>
+            </div>
+            <div class="box1">
+              <div class="tech">Marketing</div>
+              <div class="screen">Life</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bgc">
+      <section>
+        <div class="container footer-nav">
+          <div class="footer-web-logo">
+            <a href="./index.html"
+              ><img src="./images/footer-nav/logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="footer-link">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./about.html">About us</a></li>
+              <li><a href="./contact.html">Contact us</a></li>
+              <li><a href="./policiy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container footer-emeil-box">
+          <div class="subscribe-news">
+            <h2>Subscribe to our news letter to get latest updates and news</h2>
+          </div>
+          <div class="footer-input">
+            <form action="#">
+              <input
+                placeholder="Enter Your Email"
+                required
+                name="emeil"
+                type="email"
+              />
+              <input type="submit" value="Subscribe" />
+            </form>
+          </div>
+        </div>
+        <div class="container footer-last-box">
+            <div class="last-box-left">
+                <a href="#">Finstreet 118 2561 Fintown</a> <br>
+                <a href="#">Hello@finsweet.com  020 7993 2905</a>
+            </div>
+            <div class="last-box-right">
+                <a href="#"><img src="./images/footer-nav/facebok-nav.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/twitter.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/insta.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/in.svg" alt=""></a>
+            </div>
+          </div>
+      </section>
+    </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>
