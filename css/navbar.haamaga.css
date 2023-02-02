@@ -47,7 +47,7 @@ nav {
   font-weight: 400;
   font-size: var(--headingh6-size);
   line-height: 28px;
-  color: white;
+  color: var(--levander);
 }
 #myLinks .subscribe a {
   font-family: "Sen";
