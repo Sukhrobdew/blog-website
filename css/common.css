@@ -26,6 +26,31 @@
   box-sizing: border-box;
 }
 
+
+
+:root {
+  --main-color: #232536;
+  --bgc-button: #edc14a;
+  --purple: #592ea9;
+  --dark-grey: #4c4c4c;
+  --medium-grey: #6d6e76;
+  --light-gray: #f4f4f4;
+  --levander: #f4f0f8;
+  --light-yellov: #fbf6ea;
+}
+
+:root {
+  --display-size: 56px;
+  --headingh1-size: 48px;
+  --headingh2-size: 36px;
+  --headingh3-size: 28px;
+  --headingh4-size: 24px;
+  --headingh5-size: 20px;
+  --headingh6-size: 16px;
+  --lebel-size-: 14px;
+}
+
+
 .container {
   max-width: 1320px;
   margin: 0 auto;
