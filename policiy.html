@@ -5,8 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Finsweet</title>
+    <link rel="stylesheet" href="./css/policiy.css" />
+    <link rel="stylesheet" href="./css/foter.hammga.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/navbar.haamaga.css" />
   </head>
   <body>
-    <h1>Kamron Sunnatullayev</h1>
+    <header>
+      <nav id="navbar">
+        <div class="container">
+          <div class="top-nav">
+            <div class="logo">
+              <a href="./index.html"
+                ><img src="./images/home/Logo.svg" alt="logo"
+              /></a>
+            </div>
+            <div class="links">
+              <ul id="myLinks">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li class="subscribe"><a href="#">Subscribe</a></li>
+              </ul>
+              <div class="hamburger">
+                <span
+                  style="font-size: 30px; cursor: pointer"
+                  onclick="openNav()"
+                  >&#9776;</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- toggle ------ -->
+          <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >&times;</a
+            >
+            <div class="overlay-content">
+              <a href="#">Home</a>
+              <a href="#">Blog</a>
+              <a href="#">About Us</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
   </body>
 </html>
