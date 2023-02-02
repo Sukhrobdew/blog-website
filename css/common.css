@@ -1,25 +1,75 @@
+
 * {
-    margin: 0;
-    padding: 0;
-}
-*,*::after, *::before {
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
+@font-face {
+  font-family: "Inter";
+  src: url(../fonts/Inter-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: "Sen";
+  src: url(../fonts/Sen-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+
+:root {
+  --main-color: #232536;
+  --bgc-button: #edc14a;
+  --purple: #592ea9;
+  --dark-grey: #4c4c4c;
+  --medium-grey: #6d6e76;
+  --light-gray: #f4f4f4;
+  --levander: #f4f0f8;
+  --light-yellov: #fbf6ea;
+  --footer-color: rgba(255, 255, 255, 0.05);
+}
+
+:root {
+  --display-size: 56px;
+  --headingh1-size: 48px;
+  --headingh2-size: 36px;
+  --headingh3-size: 28px;
+  --headingh4-size: 24px;
+  --headingh5-size: 20px;
+  --headingh6-size: 16px;
+  --lebel-size-: 14px;
+}
+
+
 .container {
-    max-width: 1320px;
-    margin: 0 auto;
-    padding: 0 20px;
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 input:focus {
-    outline: none;
+  outline: none;
 }
 
 button {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
 }

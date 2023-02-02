@@ -1,0 +1,226 @@
+/* start-header */
+:root {
+  --main-color: #232536;
+  --bgc-button: #edc14a;
+  --purple: #592ea9;
+  --dark-grey: #4c4c4c;
+  --medium-grey: #6d6e76;
+  --light-gray: #f4f4f4;
+  --levander: #f4f0f8;
+  --light-yellov: #fbf6ea;
+}
+:root {
+  --white: #ffffff;
+}
+:root {
+  --display-size: 56px;
+  --headingh1-size: 48px;
+  --headingh2-size: 36px;
+  --headingh3-size: 28px;
+  --headingh4-size: 24px;
+  --headingh5-size: 20px;
+  --headingh6-size: 16px;
+  --lebel-size-: 14px;
+}
+body {
+  background-color: var(--light-gray);
+}
+/* start-navbar */
+#navbar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  background: var(--main-color);
+}
+
+/* shrink------ */
+nav {
+  padding: 27px 0;
+}
+
+.navbar-shrink {
+  padding: 8px 0;
+  transition: 0.4s;
+  box-shadow: 0 -8px 0 10px rgb(221, 255, 214);
+}
+
+/* ----- */
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links ul {
+  display: flex;
+  gap: 24px;
+}
+.links li {
+  display: flex;
+  align-items: center;
+}
+.links a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--headingh6-size);
+  line-height: 28px;
+  color: white;
+}
+#myLinks .subscribe a {
+  font-family: "Sen";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  padding: 16px 48px;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #232536;
+  margin-left: 10px;
+}
+
+.hamburger span {
+  align-items: center;
+  display: flex;
+}
+.subscribe a:hover {
+  color: #14c0ac;
+  background-color: rgb(117, 109, 109) !important;
+}
+
+.links a:hover {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255), 0 0 25px rgb(244, 244, 246),
+    0 0 5px rgb(251, 251, 251);
+}
+
+#myLinks {
+  display: none;
+}
+
+/* navbar responsive */
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 80px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 10px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #e1e4e3;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  text-decoration: underline;
+  padding: 15px;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 45px;
+  font-size: 45px;
+  color: red;
+}
+
+/* end-navbar */
+
+
+.header-started {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.header-started-left {
+  max-width: 624px;
+  height: 326px;
+  background-color: var(--white);
+}
+.header-started-left p {
+  font-family: "Inter";
+  font-style: normal;
+  padding: 0px 20px;
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.header-started-left h2 {
+  font-family: "Sen";
+  padding: 0 15px;
+  /* margin-top: -35px; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  /* margin-top: 70px; */
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: var(--main-color);
+}
+.header-started-right {
+  max-width: 477px;
+  height: 112px;
+  padding-top: 40px;
+}
+.header-started-right p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--dark-grey);
+}
+
+@media (min-width: 1000px) {
+  .header-started {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+  }
+  .header-started-left {
+    position: relative;
+    left: 10%;
+    top: 60px;
+    max-width: 494px;
+    height: 286px;
+    padding-left: 20px;
+  }
+  .header-started-left p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--main-color);
+  }
+}
