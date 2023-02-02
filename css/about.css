@@ -192,7 +192,12 @@ nav {
   line-height: 28px;
   color: var(--dark-grey);
 }
-
+.header-img {
+    background-image: url(../images/about/header-photo.svg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
 
 @media (min-width: 1000px) {
   .header-started {
