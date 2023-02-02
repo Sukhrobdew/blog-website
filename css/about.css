@@ -193,10 +193,39 @@ nav {
   color: var(--dark-grey);
 }
 .header-img {
-    background-image: url(../images/about/header-photo.svg);
-    background-repeat: no-repeat;
-    background-size: cover ;
-    
+  padding: 0px 45px;
+  padding-bottom: 40px;
+}
+.header-img img {
+  padding-top: 130px;
+  width: 100%;
+}
+.about-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 330px;
+  height: 450px;
+  background-color: var(--bgc-button);
+}
+.numbers-boss h2 {
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  padding-top: 30px;
+  padding-left: 100px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+.numbers-boss p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 80px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--main-color);
 }
 
 @media (min-width: 1000px) {
@@ -208,8 +237,8 @@ nav {
   .header-started-left {
     position: relative;
     left: 10%;
-    max-width: 494px;
-    height: 299px;
+    max-width: 520px;
+    height: 310px;
     padding-left: 20px;
   }
   .header-started-left h2 {
@@ -234,7 +263,7 @@ nav {
   }
   .header-started-right {
     position: relative;
-    right: 35px;
+    right: 45px;
   }
   .header-started-right p {
     font-family: "Inter";
@@ -244,5 +273,33 @@ nav {
     line-height: 28px;
     color: #4c4c4c;
     min-width: 474px;
+  }
+  .header-img img {
+    margin-top: -200px;
+  }
+  .about-numbers {
+    display: flex;
+    max-width: 630px;
+    height: 156px;
+  }
+  .numbers-boss {
+    /* display: flex;
+    justify-content: space-around; */
+  }
+  .numbers-boss h2 {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: -2px;
+  }
+  .numbers-boss p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--main-color);
   }
 }
