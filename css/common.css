@@ -37,6 +37,7 @@
   --light-gray: #f4f4f4;
   --levander: #f4f0f8;
   --light-yellov: #fbf6ea;
+  --footer-color: rgba(255, 255, 255, 0.05);
 }
 
 :root {
