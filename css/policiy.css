@@ -1,0 +1,104 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #e5e5e5;
+}
+
+main {
+  margin-top: 111px;
+}
+
+.ispum {
+  align-items: center;
+  padding: 80px 0;
+}
+
+.ispum h1 {
+  text-align: center;
+  padding: 5px 0;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  color: #232536;
+}
+
+.ispum p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #232536;
+  opacity: 0.6;
+}
+
+.last {
+  align-items: center;
+  padding: 150px 0;
+}
+
+.last h2 {
+  text-align: center;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding: 32px 0;
+}
+
+.last p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c4c4c;
+}
+
+.tempus {
+  width: 100%;
+  margin-bottom: 128px;
+}
+
+.tempus h6 {
+  text-align: center;
+  font-family: "Sen";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+  padding: 32px 0;
+}
+
+.tempus p {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #4c4c4c;
+}
+
+@media (max-width: 600px) {
+  .last {
+    align-items: center;
+  }
+  .tempus {
+    align-items: center;
+  }
+}
