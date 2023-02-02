@@ -8,6 +8,130 @@
     <link rel="stylesheet" href="./css/contact.css" />
   </head>
   <body>
-    <h1>Orif Yo'ldoshev</h1>
+    <nav id="navbar">
+      <div class="container">
+        <div class="top-nav">
+          <div class="logo">
+            <a href="./index.html"
+              ><img src="./images/home/Logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="links">
+            <ul id="myLinks">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li class="subscribe"><a href="#">Subscribe</a></li>
+            </ul>
+            <div class="hamburger">
+              <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+                >&#9776;</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- toggle ------ -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+          <div class="overlay-content">
+            <a href="#">Home</a>
+            <a href="#">Blog</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="container"> 
+
+      <div class="contact">
+        <h2><b>Contact us</b></h2>
+        <h1><b>Let’s Start a Conversation</b></h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim.
+        </p>
+      </div>
+      <div class="contact-time">
+        <div class="contact-time-left">
+          <p>Working hours</p>
+          <h3>Monday To Friday</h3>
+          <h4>9:00 AM to 8:00 PM </h4>
+          <h5>Our Support Team is available 24/7</h5>
+        </div>
+        <div class="contact-emeil">
+          <p class="contact-p">Contact Us</p>
+          <h3>020 7993 2905</h3>
+          <p class="hello-emeil">hello@finsweet.com</p>
+      </div>
+      </div>
+      <div class="form">
+        <form action="#">
+          <input type="text" placeholder="Full Name" required id="name">
+          <input type="emaill" placeholder="Your Email" required id="emeil">
+          <select name="quary" id="quary">
+            <option value="reladet">Query Related </option>
+            <option value="reladet">Query Related </option>
+            <option value="reladet">Query Related </option>
+            <option value="reladet">Query Related </option>
+          </select>
+          <textarea placeholder="Message" name="coment" id="comment" cols="30" rows="10"></textarea>
+          <button class="form-btn"><b>Send Message</b></button>
+        </form>
+      </div>
+    </main>
+    <footer class="bgc">
+      <section>
+        <div class="container footer-nav">
+          <div class="footer-web-logo">
+            <a href="./index.html"
+              ><img src="./images/footer-nav/logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="footer-link">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./blog.html">Blog</a></li>
+              <li><a href="./about.html">About us</a></li>
+              <li><a href="./contact.html">Contact us</a></li>
+              <li><a href="./policiy.html">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container footer-emeil-box">
+          <div class="subscribe-news">
+            <h2>Subscribe to our news letter to get latest updates and news</h2>
+          </div>
+          <div class="footer-input">
+            <form action="#">
+              <input
+                placeholder="Enter Your Email"
+                required
+                name="emeil"
+                type="email"
+              />
+              <input type="submit" value="Subscribe" />
+            </form>
+          </div>
+        </div>
+        <div class="container footer-last-box">
+            <div class="last-box-left">
+                <a href="#">Finstreet 118 2561 Fintown</a> <br>
+                <a href="#">Hello@finsweet.com  020 7993 2905</a>
+            </div>
+            <div class="last-box-right">
+                <a href="#"><img src="./images/footer-nav/facebok-nav.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/twitter.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/insta.svg" alt=""></a>
+                <a href="#"><img src="./images/footer-nav/in.svg" alt=""></a>
+            </div>
+          </div>
+      </section>
+    </footer>
   </body>
 </html>
