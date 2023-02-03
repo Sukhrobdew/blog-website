@@ -194,17 +194,19 @@ nav {
 .john .doe {
   color: #592ea9;
 }
-.home-left button {
+.home-left button  {
   font-family: "Sen";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #232536;
   background: #ffd050;
   padding: 16px 48px;
   border: none;
   margin-top: 32px;
+}
+.home-left button a {
+  color: #232536;
 }
 .home-left button:hover {
   transform: scale(1.1);
@@ -413,10 +415,15 @@ main {
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
-  color: #232536;
   border: none;
   padding: 16px 48px;
   margin-top: 32px;
+}
+.catigors-end button:hover {
+  transform: scale(1.1);
+}
+.catigors-end button a {
+  color: #232536;
 }
 
 @media (min-width: 700px) {
