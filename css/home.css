@@ -142,6 +142,7 @@ nav {
 /* main------------------------------------------ */
 
 #first {
+  background-image: url(../images/home/Overlay.png);
   background-image: url(../images/home/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png);
   background-repeat: no-repeat;
   background-position: center;
