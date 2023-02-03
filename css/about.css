@@ -552,6 +552,7 @@ input[type="submit"] {
   margin-left: 80px;
   border: none;
   margin-top: 32px;
+  margin-bottom: 50px;
 }
 
 
@@ -819,7 +820,7 @@ input[type="submit"] {
 @media (min-width: 1120px) {
   #last {
     position: relative;
-    top: -130px;
+    top: -100px;
   }
   .fot-end {
     text-align: center;
